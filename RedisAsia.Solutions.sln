@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RedisAsia.Hosted", "RedisAsia.Hosted", "{ACBD6C0F-8B42-47BA-898E-A60AD0DE716A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisAsia.Domain", "RedisAsia.Domain\RedisAsia.Domain.csproj", "{7BCB1CB8-DF07-4855-8F71-AC57B531CC82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisAsia.Services", "RedisAsia.Services\RedisAsia.Services.csproj", "{123B04E7-A9AE-4219-A454-9FA628DF1010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisAsia.Shared", "RedisAsia.Shared\RedisAsia.Shared.csproj", "{A2069F3D-A924-4C30-8F2C-F0A0AC4CE9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisAsia.Web", "RedisAsia.Hosted\RedisAsia.Web\RedisAsia.Web.csproj", "{415213D7-C1BE-424C-8179-FDF202A218AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisAsia.Packages", "RedisAsia.Packages\RedisAsia.Packages.csproj", "{082CD689-8182-4582-9ED5-DC1D0BD4A2E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BCB1CB8-DF07-4855-8F71-AC57B531CC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCB1CB8-DF07-4855-8F71-AC57B531CC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCB1CB8-DF07-4855-8F71-AC57B531CC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCB1CB8-DF07-4855-8F71-AC57B531CC82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123B04E7-A9AE-4219-A454-9FA628DF1010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123B04E7-A9AE-4219-A454-9FA628DF1010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123B04E7-A9AE-4219-A454-9FA628DF1010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123B04E7-A9AE-4219-A454-9FA628DF1010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2069F3D-A924-4C30-8F2C-F0A0AC4CE9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2069F3D-A924-4C30-8F2C-F0A0AC4CE9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2069F3D-A924-4C30-8F2C-F0A0AC4CE9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2069F3D-A924-4C30-8F2C-F0A0AC4CE9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415213D7-C1BE-424C-8179-FDF202A218AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415213D7-C1BE-424C-8179-FDF202A218AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415213D7-C1BE-424C-8179-FDF202A218AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415213D7-C1BE-424C-8179-FDF202A218AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082CD689-8182-4582-9ED5-DC1D0BD4A2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082CD689-8182-4582-9ED5-DC1D0BD4A2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082CD689-8182-4582-9ED5-DC1D0BD4A2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082CD689-8182-4582-9ED5-DC1D0BD4A2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{415213D7-C1BE-424C-8179-FDF202A218AC} = {ACBD6C0F-8B42-47BA-898E-A60AD0DE716A}
+	EndGlobalSection
+EndGlobal

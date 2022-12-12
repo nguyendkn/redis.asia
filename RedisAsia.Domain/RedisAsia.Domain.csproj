@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RedisAsia.Packages\RedisAsia.Packages.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="BlogAggregates" />
+      <Folder Include="PortfolioAggregates" />
+    </ItemGroup>
+
+</Project>
