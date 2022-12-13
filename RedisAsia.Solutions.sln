@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisAsia.Web", "RedisAsia.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisAsia.Packages", "RedisAsia.Packages\RedisAsia.Packages.csproj", "{082CD689-8182-4582-9ED5-DC1D0BD4A2E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisAsia.Mobile", "RedisAsia.Hosted\RedisAsia.Mobile\RedisAsia.Mobile.csproj", "{6DDD076A-4344-4F50-B5BA-F370E31280DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,8 +40,13 @@ Global
 		{082CD689-8182-4582-9ED5-DC1D0BD4A2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{082CD689-8182-4582-9ED5-DC1D0BD4A2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{082CD689-8182-4582-9ED5-DC1D0BD4A2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDD076A-4344-4F50-B5BA-F370E31280DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDD076A-4344-4F50-B5BA-F370E31280DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDD076A-4344-4F50-B5BA-F370E31280DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDD076A-4344-4F50-B5BA-F370E31280DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{415213D7-C1BE-424C-8179-FDF202A218AC} = {ACBD6C0F-8B42-47BA-898E-A60AD0DE716A}
+		{6DDD076A-4344-4F50-B5BA-F370E31280DE} = {ACBD6C0F-8B42-47BA-898E-A60AD0DE716A}
 	EndGlobalSection
 EndGlobal
